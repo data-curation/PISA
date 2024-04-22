@@ -1,5 +1,6 @@
 numpy==1.22.0
-scipy==0.18
+# scipy==0.18
+scipy>=1.8 # Adusted to address use-after-free vulnerability 
 patsy==0.4.0
 cython==0.24
 wbdata==0.2.7
